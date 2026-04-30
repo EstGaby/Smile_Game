@@ -1,37 +1,79 @@
 .invisivel{
     display:none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-color: rgb(65, 75, 158);
+    background-color: rgb(133, 39, 54);
   }
   .visivel{
     display:inline;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-color: rgb(65, 75, 158);
+    background-color: rgb(133, 39, 54);
   }
   .inicial {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     text-align: center;
-    font-size: 100px;
-    background-color: lightgrey;
+    font-size: 50px; /*Mudei o tamanho dos números.*/
+    /*background-color: rgb(114, 102, 112);*/
+    background-image: url('https://i.pinimg.com/736x/74/7f/8c/747f8c484bb6d9728fa30123dcda66e3.jpg');
+    background-size: cover;
+    background-position: center;
     width: 150px;
     height: 200px;
-    border: 15px solid green;
+    /*border: 15px solid rgb(114, 102, 112);*/ /*Troquei a cor*/
+    border-radius: 10px; /*Arredondei os cantos.*/
     padding: 10px;
     margin: 20px;
   }
   .acertou {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: yellow;
-    background-color: LawnGreen;
+    color: white; /*Troquei a cor*/
+    background-color: rgb(65, 75, 158); /*Troquei a cor.*/
     width: 150px;
     height: 200px;
-    border: 15px solid yellow;
+    /*border: 15px solid rgb(65, 75, 158);*/ /*Troquei a cor.*/
+    border-radius: 10px; /*Arredondei os cantos.*/
     padding: 10px;
     margin: 20px;
   }
   .errou {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
     color: white;
-    background-color: red;
+    background-color: rgb(133, 39, 54); /*Troquei a cor.*/
     width: 150px;
     height: 200px;
-    border: 15px solid black;
+    /*border: 15px solid rgb(133, 39, 54);*/ /*Troquei a cor.*/
+    border-radius: 10px; /*Arredondei os cantos.*/
     padding: 10px;
     margin: 20px;
+  }
+  /*Aqui eu peguei o h1 e dois paragráfos apenas para mudar a fonte.*/
+  .titulo-principal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(191, 31, 31);
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(65, 75, 158);
+    text-decoration-style: wavy; /* Linha ondulada */
+    text-decoration-thickness: 2px;
+  }
+  .textinho {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  .botoes {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  #resposta {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
   }
