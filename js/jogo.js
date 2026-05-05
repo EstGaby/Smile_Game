@@ -66,6 +66,7 @@
       img.src = "https://i.pinimg.com/736x/4c/b4/a6/4cb4a6dcf18a68ec7e67af51201cfe84.jpg";
       //adiciona a imagem criada na div (obj) escolhida pelo jogador (appendChild)
       obj.appendChild(img);
+      
     }
 
     //Função que sorteia um número aleatório entre 0 e 2 e verifica se o jogador acertou

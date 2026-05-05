@@ -15,25 +15,25 @@
     background-color: rgb(133, 39, 54);
   }
   .inicial {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: center;
-    font-size: 50px; /*Mudei o tamanho dos números.*/
+    font-size: 50px;*/ /*Tirei os números!*/
     /*background-color: rgb(114, 102, 112);*/
     background-image: url('https://i.pinimg.com/736x/74/7f/8c/747f8c484bb6d9728fa30123dcda66e3.jpg');
     background-size: cover;
     background-position: center;
     width: 150px;
-    height: 200px;
+    height: 210px;
     /*border: 15px solid rgb(114, 102, 112);*/ /*Troquei a cor*/
     border-radius: 10px; /*Arredondei os cantos.*/
     padding: 10px;
     margin: 20px;
   }
   .acertou {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: white; /*Troquei a cor*/
+    color: white;*/ /*Tirei os números!*/
     background-color: rgb(65, 75, 158); /*Troquei a cor.*/
     width: 150px;
     height: 200px;
@@ -76,4 +76,20 @@
   #resposta {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+  }
+  #imagem {
+    width:130px;
+    height:178px;
+  }
+  .inicial:hover {
+    -webkit-animation: shake .8s ease-in-out .1s infinite alternate;
+  }
+  @-webkit-keyframes shake {
+    from {
+      -webkit-transform: rotate(15deg);
+    }
+    to {
+      -webkit-transform: rotate(-15deg);
+      -webkit-transform-origin: center center;
+    }
   }
