@@ -29,6 +29,7 @@
     border-radius: 10px; /*Arredondei os cantos.*/
     padding: 10px;
     margin: 20px;
+    
   }
   .acertou {
     /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,10 +44,10 @@
     margin: 20px;
   }
   .errou {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: white;*/
     background-color: rgb(133, 39, 54); /*Troquei a cor.*/
     width: 150px;
     height: 200px;
@@ -78,6 +79,10 @@
     text-align: center;
   }
   #imagem {
+    width:130px;
+    height:178px;
+  }
+  #imagem2 {
     width:130px;
     height:178px;
   }

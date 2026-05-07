@@ -42,6 +42,7 @@
       if (imagem != "") {
         //removemos a imagem do Smile (Starscream)
         imagem.remove();
+        imagem2.remove();
       }
     }
 
@@ -66,6 +67,7 @@
       img.src = "https://i.pinimg.com/736x/4c/b4/a6/4cb4a6dcf18a68ec7e67af51201cfe84.jpg";
       //adiciona a imagem criada na div (obj) escolhida pelo jogador (appendChild)
       obj.appendChild(img);
+
       
     }
 
@@ -99,6 +101,10 @@
           const objSorteado = document.getElementById(sorteado);
           //chama a funçao acertou para mostrar a div aonde está o Smile
           acertou(objSorteado);
+          const img = new Image(100);
+          img.id = "imagem2";
+          img.src = "https://i.pinimg.com/736x/27/16/47/271647bf8791a95f755f300a6d8bf50a.jpg";
+          obj.appendChild(img)
         }
         //chama a funçao que atualiza o placar
         atualizaPlacar(acertos, tentativas);
